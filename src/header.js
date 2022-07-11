@@ -11,11 +11,8 @@
  */
 function Header() {
     return(
-      <div className='header'>
-        <h1>
-            Home Page of Charles Kellogg
-            ____________________________
-        </h1>
+      <div id='header'>
+        <h1>Home Page of Charles Kellogg</h1>
       </div>
     );
   }
