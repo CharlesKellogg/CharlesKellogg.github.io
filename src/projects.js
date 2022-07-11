@@ -17,7 +17,7 @@ function Projects() {
             <div id="projSpacer" />
             <h1 id="projHead">Projects:</h1>
             <section className="projects">
-                <Project link="CharlesKellogg.github.io" name="Home Page (This Site)" />
+                <Project link="CharlesKellogg.github.io" name="Home Page" />
                 <Project link="Snake" name="Snake" />
             </section>
         </div>
