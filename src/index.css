@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+#endSpacer {
+  height: 6em;
+}
+
 .linkGridSpacer {
   background-color: #000000;
   height: 0.2em;

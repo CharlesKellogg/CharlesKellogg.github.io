@@ -21,6 +21,7 @@ class Page extends React.Component {
         <Header />
         <Social />
         <Projects />
+        <div id='endSpacer' />
       </div>
     );
   }
