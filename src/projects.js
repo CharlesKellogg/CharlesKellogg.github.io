@@ -5,7 +5,7 @@
  * Display the list of projects
  */
 
-import { useState } from "react";
+import LinkBox from "./linkBox";
 
 /**
  * Display projects
@@ -14,29 +14,13 @@ import { useState } from "react";
 function Projects() {
     return(
         <div>
-            <div id="projSpacer" />
-            <h1 id="projHead">Projects:</h1>
-            <section className="projects">
-                <Project link="CharlesKellogg.github.io" name="Home Page" />
-                <Project link="Snake" name="Snake" />
+            <div className="linkGridSpacer" />
+            <h1 className="linkGridHead">Projects:</h1>
+            <section className="linkGrid">
+                <LinkBox name="Home Page" link="https://www.github.com/CharlesKellogg/CharlesKellogg.github.io/" />
+                <LinkBox name="Snake" link="https://www.github.com/CharlesKellogg/Snake/" />
             </section>
         </div>
-    );
-}
-
-function Project(props) {
-    const [hover, setHover] = useState(false);
-
-    return(
-        <a
-            className={hover ? "projHover" : "project"}
-            href={"https://www.github.com/CharlesKellogg/" + props.link}
-            target="_blank"
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-        >
-            <h2 className="projText">{props.name}</h2>
-        </a>
     );
 }
 

@@ -8,6 +8,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './header';
 import Projects from './projects';
+import Social from './social';
 import './index.css';
 
 /**
@@ -18,6 +19,7 @@ class Page extends React.Component {
     return(
       <div className='page'>
         <Header />
+        <Social />
         <Projects />
       </div>
     );
