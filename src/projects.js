@@ -9,6 +9,7 @@ import LinkBox from "./linkBox";
 
 /**
  * Display projects
+ * 
  * @returns The projects component
  */
 function Projects() {

@@ -15,6 +15,11 @@ import './index.css';
  * Class for the page
  */
 class Page extends React.Component {
+  /**
+   * Render function for this component
+   * 
+   * @returns The complete page component
+   */
   render() {
     return(
       <div className='page'>

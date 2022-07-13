@@ -7,6 +7,7 @@
 
 /**
  * Display the header
+ * 
  * @returns The header component
  */
 function Header() {

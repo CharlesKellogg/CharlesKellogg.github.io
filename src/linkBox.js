@@ -7,6 +7,13 @@
 
 import { useState } from "react";
 
+/**
+ * Create and return a LinkBox component.
+ * Will change color when hovered over.
+ * 
+ * @param {*} props 
+ * @returns LinkBox component
+ */
 function LinkBox(props) {
     const [hover, setHover] = useState(false);
 
