@@ -18,10 +18,10 @@ function Social() {
             <div className="linkGridSpacer" />
             <h1 className="linkGridHead">Social:</h1>
             <section className="linkGrid">
-                <LinkBox name="Twitter" link="https://twitter.com/sweetheart_char" />
-                <LinkBox name="Instagram" link="https://www.instagram.com/charlie.kellogg/" />
-                <LinkBox name="TikTok" link="https://www.tiktok.com/@absolute_sweetheart" />
-                <LinkBox name="Discord" link="https://www.discordapp.com/users/417034424262197258" />
+                <LinkBox name="Twitter" id="twitter" link="https://twitter.com/sweetheart_char" />
+                <LinkBox name="Instagram" id="instagram" link="https://www.instagram.com/charlie.kellogg/" />
+                <LinkBox name="TikTok" id="tiktok" link="https://www.tiktok.com/@absolute_sweetheart" />
+                <LinkBox name="Discord" id="discord" link="https://www.discordapp.com/users/417034424262197258" />
             </section>
         </div>
     );
