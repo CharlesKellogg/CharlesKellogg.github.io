@@ -22,10 +22,15 @@ function LinkBox(props) {
 
     return(
         <a
+            // Change class name and id based on whether the mouse is over this component
             className={hover ? "linkBoxHover" : "linkBox"}
             id={hover ? props.id + "Hover" : props.id}
+
+            // Set link
             href={props.link}
             target="_blank"
+
+            // Set hover conditions
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
         >
